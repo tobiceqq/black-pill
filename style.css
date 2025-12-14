@@ -45,6 +45,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    margin-top: 70px;
 }
 
 .hero-text {
@@ -59,6 +60,41 @@ body {
     font-weight: 700;
     line-height: 1.05;
     text-align: right;
+}
+
+/* about us */
+.about {
+    background: #ffffff;
+    padding: 90px 0;   
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+.about-text h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.about-text p {
+    font-size: 15px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+    max-width: 460px;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 
