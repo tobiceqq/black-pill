@@ -282,13 +282,13 @@ font-size: 14px;
 .image-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-auto-rows: 50vh;
     width: 100%;
 }
 
 .image-grid img {
     width: 100%;
-    height: 100;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
